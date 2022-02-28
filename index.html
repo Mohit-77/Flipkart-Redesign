@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flipkart</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+  <link rel="icon"
+    href="https://images.unsplash.com/photo-1644901718794-0a2e63d1f806?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Q0R3dXdYSkFiRXd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="./navbar.css" />
+  <link rel="stylesheet" href="./category.css" />
+</head>
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand mx-1" href="#">
+      <img src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+        alt="Flipkart Logo" class="FlipkartLogo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active d-flex align-items-center text-black mx-1" aria-current="page" href="#">
+            <i> <b> Explore Plus </b> </i>
+            <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json" trigger="loop" delay="5"
+              colors="primary:#121331,secondary:#fff019" style="width: 40px; height: 40px">
+            </lord-icon>
+          </a>
+        </li>
+        <li class="nav-item d-flex align-items-center mx-1">
+          <button class="loginFlipkart px-3 py-1 fw-bold text-black">
+            Login
+          </button>
+        </li>
+        <li class="nav-item dropdown">
+          <!-- DropDown Pending  -->
+          <!-- DropDown Pending  -->
+        </li>
+        <li class="nav-item d-flex align-items-center mx-1"></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2 searchBox" type="search" placeholder="Search for product, brands and more"
+          aria-label="Search" />
+        <button class="loginFlipkart px-3 py-1 fw-bold text-black" type="submit">
+          Search
+        </button>
+      </form>
+      <button class="cart px-2 py-1 m-1 fw-bold">
+        <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+        <lord-icon src="https://cdn.lordicon.com/slkvcfos.json" trigger="loop-on-hover"
+          colors="primary:#000000,secondary:#000000" stroke="65" style="width: 28px; height: 28px">
+        </lord-icon>
+        Cart
+      </button>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Category Section Start -->
+<div class="iconMainBox">
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Top offers</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Grocery</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Mobile</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Fashion</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Electronics</p>
+  </div>
+  <div class="iconBox">
+    <img src="./images/homeAppliances-removebg-preview.png" alt="" class="icontag" />
+    <p class="fw-bold">Home</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Appliances</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Travel</p>
+  </div>
+  <div class="iconBox">
+    <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="" class="icontag" />
+    <p class="fw-bold">Toys & More</p>
+  </div>
+</div>
+<!-- Category Section End -->
+
+<!-- Slide Ads Start -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://m.media-amazon.com/images/I/61t+Y-3DAoL._SX3740_.jpg" class="d-block w-100 h-100 slideBarAd"
+        alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/61o7CjcbdcL._SX3740_.jpg" class="d-block w-100 h-100 slideBarAd"
+        alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/81T1f07xOQL._SX3740_.jpg" class="d-block w-100 h-100 slideBarAd"
+        alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/61pxhbXv8tL._SX3740_.jpg" class="d-block w-100 h-100 slideBarAd"
+        alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/71TXr10ZDzL._SX3740_.jpg" class="d-block w-100 h-100 slideBarAd"
+        alt="..." />
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Slide Ads End -->
+
+<!-- Deals of the day category Start -->
+<div class="d-flex justify-content-between align-items-center mt-3 mx-2 p-2 textFurniture">
+  <h4 class="fw-bold">Deals of The Day</h4>
+  <button class="fw-bold px-3 py-1 viewAll">VIEW ALL</button>
+</div>
+
+<div class="container-fluid">
+  <div class="row bg-white text-center furnitureCbox m-1">
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img src="https://rukminim1.flixcart.com/flap/150/150/image/f33005289f364558.jpg?q=70" alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Discount on Kids Cloths</h6>
+        <p class="text-success fw-bold p-0">Min 60% + Extra 10% Off</p>
+        <p class="fw-bold text-secondary">Hurry, Don't Miss Out !</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/k3xcdjk0pkrrdj/dress/r/f/g/l-blue-ac2724-aks-couture-original-imafkkmh9hsq9jvh.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Tops, Kurti & more</h6>
+        <p class="text-success fw-bold p-0">From ₹ 700/-</p>
+        <p class="fw-bold text-secondary">Sassafras, Clovia, Dream</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jmux18w0/shower-head/h/q/p/sail-with-arm-set-of-2-na-ohs-0155-s2-kamal-original-imaf9zf9vqx75dtn.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Bathroom Essentials</h6>
+        <p class="text-success fw-bold p-0">From ₹ 99/-</p>
+        <p class="fw-bold text-secondary">Best Selling</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/krjjde80/cushion-pillow-cover/e/6/c/cushion-cover-35-flipkart-smartbuy-original-imag5b9nw4z6zdfm.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Cushinos, Blanket & more</h6>
+        <p class="text-success fw-bold p-0">From ₹ 99/- + 10% Off</p>
+        <p class="fw-bold text-secondary">Grab Or Gone ! ! !</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img src="https://rukminim1.flixcart.com/flap/150/150/image/bb7f11ecbfc2c20a.jpg?q=70" alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Bags, Trolly & more</h6>
+        <p class="text-success fw-bold p-0">From ₹ 399/-</p>
+        <p class="fw-bold text-secondary">Gears, Skybags & more</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kdj4xow0/smartwatch/z/4/g/sm-r825fzkiinu-android-ios-samsung-original-imafuenxhndfnczz.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Samsung Watch</h6>
+        <p class="text-success fw-bold p-0">Flat 40% Off</p>
+        <p class="fw-bold text-secondary">Grab Now</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Deals of the day category End -->
+
+<!-- SmartPhone Section Start -->
+<div class="container-fluid my-2">
+  <div class="row text-center p-2" style="background-color: skyblue;">
+    <div class="col-lg-6">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Laptops/February/1500x300.jpg" alt=""
+        class="py-1 w-100 smartPhoneAD">
+    </div>
+    <div class="col-lg-6">
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Accessories/1500X3001.jpg" alt=""
+        class="py-1 w-100 smartPhoneAD ">
+    </div>
+  </div>
+</div>
+<!-- SmartPhone Section End -->
+
+
+<!-- Top Furniture section Start -->
+<div class="d-flex justify-content-between align-items-center mt-3 mx-2 p-2 textFurniture">
+  <h4 class="fw-bold">
+    Furniture Bestsellers <br />
+    <span class="text-secondary fw-light">From ₹ 199/-</span>
+  </h4>
+  <button class="fw-bold px-3 py-1 viewAll">VIEW ALL</button>
+</div>
+
+<div class="container-fluid">
+  <div class="row bg-white text-center furnitureCbox m-1">
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kdnf98w0/room-divider-partition/k/4/v/mango-wood-sc-scr-bs-039-a-free-standing-artesia-brown-original-imafugf5z3bmjghy.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Room Divider</h6>
+        <p class="text-success fw-bold p-0">From ₹ 4699/-</p>
+        <p class="fw-bold text-secondary">Handcrafted Solidwood</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/ji6b2q80/living-room-chair/d/x/t/brown-pvc-plastic-turbo-chair-brown-colour-supreme-brown-original-imaf6f7e4kpkhxyz.jpeg?q=70"
+          alt="" class="pt-4" />
+        <h6 class="fw-bold my-2">Livingroom Chairs</h6>
+        <p class="text-success fw-bold p-0">From ₹ 700/-</p>
+        <p class="fw-bold text-secondary">Top Rated Furniture</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/ke7ff680/hammock-swing/j/f/u/q3-jkaf-y3l0-furniture-kart-original-imafux96kpy7grch.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Hammock & Swings</h6>
+        <p class="text-success fw-bold p-0">From ₹ 199/-</p>
+        <p class="fw-bold text-secondary">Trendy Collection</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jqgy3rk0/computer-table/j/2/v/particle-board-dkl-comp-tb-09-delite-kom-brown-original-imafcheqbgers37z.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Office Study Table</h6>
+        <p class="text-success fw-bold p-0">From ₹ 3,290/-</p>
+        <p class="fw-bold text-secondary">Made in India Brands</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jlcmavk0/aquarium-tank/s/4/5/usb-desktop-aquarium-with-running-water-calendar-temperature-and-original-imaf8hv4nkv55gx8.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Aquarium Tanks</h6>
+        <p class="text-success fw-bold p-0">From ₹ 299/-</p>
+        <p class="fw-bold text-secondary">Flat, Round, Cube & more</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jod7rm80/stool/u/u/9/6m-all-crafts-art-original-imafaukuutgbcytq.jpeg?q=70"
+          alt="" class="pt-2" />
+        <h6 class="fw-bold my-2">Top 20 Stools</h6>
+        <p class="text-success fw-bold p-0">From ₹ 199/-</p>
+        <p class="fw-bold text-secondary">Limited Stocks</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Top Furniture section End -->
+
+<!-- SmartPhone Section Start -->
+<div class="container-fluid my-2">
+  <div class="row text-center p-2" style="background-color: skyblue;">
+    <div class="col-xxl-4">
+
+      <img
+        src=" https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/AdvantagePrime/BAU/14thJan/D37196025_IN_WL_AdvantageJustforPrime_Jan_Mob_ingress-banner_1242x450.jpg"
+        alt="" class="py-1 w-100 smartPhoneAD" />
+    </div>
+    <div class="col-xxl-4">
+
+      <img
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/Samsung/SamsungBAU/Feblaunch_Rainbow/GW_23rdFeb/D38033965_IN_WLME_SamsungBAU_Feb-launch_PC_1500x543.jpg"
+        alt="" class="py-1 w-100 smartPhoneAD" />
+    </div>
+    <div class="col-xxl-4">
+
+      <img
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/sabikhit/Tecno/spark8C-With-AS/D39437117_WLD_TecnoSpark8C_LP_1242x450.jpg"
+        alt="" class=" py-1 w-100 smartPhoneAD" />
+    </div>
+  </div>
+</div>
+<!-- SmartPhone Section End -->
+
+<!-- Top Offer on electronics Section Start -->
+<div class="d-flex justify-content-between align-items-center mt-3 mx-2 p-2 textFurniture">
+  <h4 class="fw-bold">
+    Top Deals on Electronics<br />
+    <span class="text-secondary fw-light Source Title">Devices and Accessories</span>
+  </h4>
+  <button class="fw-bold px-3 py-1 viewAll">VIEW ALL</button>
+</div>
+
+<div class="container-fluid">
+  <div class="row bg-white text-center furnitureCbox m-1">
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/ja73ki80/webcam/pc-webcam/7/q/e/logitech-c310-original-imaeztzqny7jh7gh.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-2">Web Camera</h6>
+        <p class="text-success fw-bold p-0">From ₹ 490/-</p>
+        <p class="fw-bold text-secondary">Logitech, Quantum & more</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jsrtn680/cooling-pad/f/j/z/tarkan-4-fans-original-imafe9w4gxyphh37.jpeg?q=70"
+          alt="" class="pt-4 h-50" />
+        <h6 class="fw-bold my-2">Cooling Pad</h6>
+        <p class="text-success fw-bold p-0">Upto 80% off</p>
+        <p class="fw-bold text-secondary">Ant Esport, Flipkart SmartBuy & more</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/j226avk0/keyboard-skin/9/a/b/laptop-ad-kb14-6-adnet-original-imaedq9hgbn7yy7z.jpeg?q=70"
+          alt="" class="pt-4 " />
+        <h6 class="fw-bold my-2">Laptop Skins</h6>
+        <p class="text-success fw-bold p-0">Upto 75% Off</p>
+        <p class="fw-bold text-secondary pt-3">Sako, Flipkart SmartBuy & more</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img src="https://rukminim1.flixcart.com/flap/150/150/image/402fe135f3592f64.jpg?q=70" alt=""
+          class="pt-0 h-50" />
+        <h6 class="fw-bold my-2">Laptop Accessories</h6>
+        <p class="text-success fw-bold p-0">Upto 90% Off</p>
+        <p class="fw-bold text-secondary">Mouse, Security Software </p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jqwny4w0/mousepad/h/g/j/eagletail-india-pubg-mp64-original-imafcszferfg8fa9.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-2">Mouse Pad</h6>
+        <p class="text-success fw-bold p-0">Upto 80% Off</p>
+        <p class="fw-bold text-secondary">Over 40,000+ Designs !</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jrkyfm80/mouse/h/u/f/hp-1000-original-imafd3jqy5sygn2s.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-2">Mouse</h6>
+        <p class="text-success fw-bold p-0">From ₹ 149/-</p>
+        <p class="fw-bold text-secondary">Logitexg, HP, Dell & more</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Top Offer on electronics Section End -->
+
+<!-- SmartPhone Section Start -->
+<div class="container-fluid my-2">
+  <div class="row text-center p-2" style="background-color: skyblue;">
+    <h1 class="text-center text-dark text-capitalize fw-bold">THE BE<span class="text-danger">@</span>ST IS YET TO COME
+    </h1>
+    <div class="col-md-12">
+      <img src="https://m.media-amazon.com/images/I/51WiII6EyGL._SX3740_.jpg" alt="" class="w-100 smartPhoneAD">
+    </div>
+  </div>
+</div>
+<!-- SmartPhone Section End -->
+
+<!-- Top Offer on electronics Section Start -->
+<div class="d-flex justify-content-between align-items-center mt-3 mx-2 p-2 textFurniture">
+  <h4 class="fw-bold">
+    Top Selection<br />
+  </h4>
+  <button class="fw-bold px-3 py-1 viewAll">VIEW ALL</button>
+</div>
+
+<div class="container-fluid">
+  <div class="row bg-white text-center furnitureCbox m-1">
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kljrvrk0/boxer/f/u/o/m-3-cmb3-bxr-02-red-black-grey-chrome-coral-original-imagynbf7cygeuth.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-4">Men's Boxer</h6>
+        <p class="text-success fw-bold p-0">Explore Now</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=70"
+          alt="" class="pt-4 h-50" />
+        <h6 class="fw-bold my-4">DSLR & Mirrorless</h6>
+        <p class="text-success fw-bold p-0">Special</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kex5ci80/sports-action-camera/2/z/6/portable-waterproof-ultra-hd-sports-action-camera-with-image-original-imafvhb8qhqudztt.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-4">Sports & Action</h6>
+        <p class="text-success fw-bold p-0">Grab Now</p>
+
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kr83ukw0/power-bank/w/5/6/power-bank-plm13zm-mi-original-imag52az6xpcvjdk.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-4">Power Bank</h6>
+        <p class="text-success fw-bold p-0">Big Saving</p>
+
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kw85bww0/processor/f/8/k/core-i3-10100f-desktop-processor-intel-original-imag8ygaehapss4n.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-4">Processors</h6>
+        <p class="text-success fw-bold p-0">In Focus Now</p>
+      </div>
+    </div>
+    <div class="col-xl-2">
+      <div class="cardBody my-2">
+        <img
+          src="https://rukminim1.flixcart.com/image/150/150/kt8zb0w0/computer/n/m/v/inspiron-3511-thin-and-light-laptop-dell-original-imag6n5kbmfcgxk6.jpeg?q=70"
+          alt="" class="pt-2 h-50" />
+        <h6 class="fw-bold my-4">Laptop</h6>
+        <p class="text-success fw-bold p-0">Big Saving</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Top Offer on electronics Section End -->
+
+<!-- Footer Section Start -->
+<div class="container-fluid">
+  <div class="row" style="background-color: skyblue;">
+    <div class="col-lg-2">
+      <ul class="unOrderList py-4">
+        <a href="">
+          <li class="fw-bold text-primary">ABOUT</li>
+          <br>
+          <a href="">
+            <li class="text-dark fw-bold">Contact Us</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">About Us</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">Careers</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">Flipkart Stories</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">Flipkart Website</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">Press</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">Flipkart Wholesale</li>
+          </a>
+
+          <a href="">
+            <li class="text-dark fw-bold">Corporate Information</li>
+          </a>
+
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <ul class="unOrderList py-4">
+        <li class="fw-bold text-primary">HELP</li>
+        <br>
+        <a href="">
+          <li class="text-dark fw-bold">Payments</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Shipping</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Cancellation & Returns</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">FAQ</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Report Infringement</li>
+        </a>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <ul class="unOrderList py-4">
+        <li class="fw-bold text-primary">POLICY</li>
+        <br>
+        <a href="">
+          <li class="text-dark fw-bold">Return Policy</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Terms Of Use</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Security</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Privacy</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Sitemap</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">EPR Compliance</li>
+        </a>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <ul class="unOrderList py-4">
+        <li class="fw-bold text-primary">SOCIAL</li>
+        <br>
+        <a href="">
+          <li class="text-dark fw-bold">Facebook</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Twitter</li>
+        </a>
+        <a href="">
+          <li class="text-dark fw-bold">Youtube</li>
+        </a>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <ul class="unOrderList py-4">
+        <li class="fw-bold text-primary">Mail Us:</li>
+        <br>
+
+        <li class="text-dark fw-bold">Flipkart Internet Private Limited,
+
+          Buildings Alyssa, Begonia &
+
+          Clove Embassy Tech Village,
+
+          Outer Ring Road, Devarabeesanahalli Village,
+
+          Bengaluru, 560103,
+
+          Karnataka, India</li>
+
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <ul class="unOrderList py-4">
+        <li class="fw-bold text-primary">Office Address:</li>
+        <br>
+        <li class="text-dark fw-bold">Flipkart Internet Private Limited,
+
+          Buildings Alyssa, Begonia &
+
+          Clove Embassy Tech Village,
+
+          Outer Ring Road, Devarabeesanahalli Village,
+
+          Bengaluru, 560103,
+
+          Karnataka, India
+
+          CIN : U51109KA2012PTC066107
+
+          Telephone: 1800 202 9898</li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- Footer Section End -->
+
+<!-- Footer Section Two Start -->
+<div class="container-fluid">
+  <div class="row bg-primary py-3">
+    <div class="col-xl-6 d-flex align-items-center justify-content-between my-1">
+      <span class="fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 172 172"
+          style=" fill:#ffffff;">
+          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+            font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+            <path d="M0,172v-172h172v172z" fill="none"></path>
+            <g fill="#ffff00">
+              <path
+                d="M153.1875,42.75577h-32.86611v-17.2692c-0.00797,-3.85107 -3.13172,-6.96896 -6.9828,-6.9697h-54.67719c-3.85108,0.00073 -6.97483,3.11863 -6.9828,6.9697v17.2692h-32.86611c-8.53046,0.00981 -15.44331,6.92267 -15.45312,15.45313v79.8211c0.00963,8.53053 6.92259,15.4435 15.45313,15.45313h134.375c8.53053,-0.00963 15.4435,-6.92259 15.45313,-15.45312v-79.8211c-0.00981,-8.53046 -6.92267,-15.44331 -15.45312,-15.45312zM7.39063,58.2089c0.00704,-6.30521 5.11666,-11.41484 11.42188,-11.42187h5.58832l-17.0102,16.0558zM18.8125,149.45188c-6.30513,-0.00722 -11.41466,-5.11674 -11.42187,-11.42187v-4.73672l16.89127,16.15859zM35.44846,149.45188h-5.33502l-22.72281,-21.73684v-59.32891l22.88339,-21.60078h5.17344zM47.86639,149.45188h-8.38668v-102.66485h8.38668zM55.70986,25.48657c0.00537,-1.62575 1.32579,-2.94031 2.95155,-2.93845h54.67719c1.62575,-0.00186 2.94618,1.3127 2.95155,2.93845v17.2692h-6.35493v-8.92687c-0.00574,-2.94062 -2.39071,-5.32167 -5.33133,-5.32259h-37.20777c-2.94062,0.00092 -5.32559,2.38198 -5.33133,5.32259v8.92754h-6.35493zM105.90396,33.82891v8.92754h-39.80859v-8.92754c0.01162,-0.71171 0.5883,-1.28452 1.30008,-1.29134h37.20844c0.71178,0.00683 1.28845,0.57963 1.30008,1.29134zM120.76953,149.45188h-68.87189v-102.66485h68.87189zM133.18746,149.45188h-8.38668v-102.66485h8.38668zM164.60938,138.03c-0.00722,6.30513 -5.11674,11.41466 -11.42187,11.42188h-5.38709l16.80897,-16.21738zM164.60938,127.63307l-22.61498,21.8188h-4.77569v-102.66485h4.41758l22.97309,21.68409zM164.60938,62.92748l-17.09922,-16.14045h5.67734c6.30521,0.00704 11.41484,5.11666 11.42188,11.42188z">
+              </path>
+            </g>
+          </g>
+        </svg>
+        Sell On Flipkart
+      </span>
+      <span class="fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="20" height="20"
+        viewBox="0 0 172 172"
+        style=" fill:#ffffff;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffff00"><path d="M86,3.44c-1.41918,0.00123 -2.69197,0.87377 -3.20485,2.19703l-21.21109,54.68391l-58.31875,2.97641c-1.42104,0.07193 -2.65119,1.01123 -3.09488,2.36314c-0.44369,1.35192 -0.00937,2.83748 1.09269,3.73748l45.41203,37.12781l-14.91562,56.33672c-0.36448,1.37274 0.15208,2.82834 1.30034,3.66425c1.14826,0.83591 2.69217,0.88027 3.88654,0.11168l49.0536,-31.48406l49.0536,31.48406c1.19437,0.76859 2.73828,0.72423 3.88654,-0.11168c1.14826,-0.83591 1.66481,-2.29152 1.30034,-3.66425l-14.91562,-56.33672l45.41203,-37.12781c1.10206,-0.9 1.53638,-2.38556 1.09269,-3.73748c-0.44369,-1.35192 -1.67383,-2.29121 -3.09488,-2.36314l-58.31875,-2.97641l-21.21109,-54.68391c-0.51288,-1.32326 -1.78567,-2.1958 -3.20485,-2.19703zM86,16.38703l18.80578,48.49594c0.49155,1.26528 1.68113,2.12325 3.03687,2.19031l51.6336,2.64047l-40.21844,32.88828c-1.04357,0.85326 -1.49268,2.23736 -1.14891,3.54078l13.21578,49.92703l-43.46359,-27.90297c-1.13361,-0.72914 -2.58858,-0.72914 -3.72219,0l-43.46359,27.90297l13.21578,-49.92703c0.34378,-1.30342 -0.10534,-2.68753 -1.14891,-3.54078l-40.21844,-32.88828l51.6336,-2.64047c1.35575,-0.06706 2.54532,-0.92503 3.03687,-2.19031z"></path></g></g></svg>
+        Advertise
+      </span>   
+      <span class="fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="20" height="20"
+        viewBox="0 0 172 172"
+        style=" fill:#ffffff;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffff00"><path d="M20.64,27.52c-9.46,0 -17.2,7.74 -17.2,17.2v79.12c0,9.46 7.74,17.2 17.2,17.2h130.72c9.46,0 17.2,-7.74 17.2,-17.2v-79.12c0,-9.46 -7.74,-17.2 -17.2,-17.2zM20.64,34.4h34.4v12.685c1.19594,0.56438 2.35156,1.22281 3.44,1.98875c1.08844,-0.76594 2.24406,-1.42437 3.44,-1.98875v-12.685h89.44c5.73781,0 10.32,4.58219 10.32,10.32v34.4h-67.69812c-1.23625,2.59344 -2.95625,4.89125 -4.98531,6.88h72.68344v37.84c0,5.73781 -4.58219,10.32 -10.32,10.32h-89.44v-33.4325l-3.44,-3.38625l-3.44,3.38625v33.4325h-34.4c-5.73781,0 -10.32,-4.58219 -10.32,-10.32v-37.84h17.65688c-2.0425,-1.98875 -3.7625,-4.28656 -4.99875,-6.88h-12.65813v-34.4c0,-5.73781 4.58219,-10.32 10.32,-10.32zM44.72,51.6c-0.59125,0 -1.1825,0.02688 -1.76031,0.09406c-0.56437,0.05375 -1.14219,0.14781 -1.69312,0.25531c-6.71875,1.37062 -12.02656,6.67844 -13.39719,13.39719c-0.22844,1.11531 -0.34938,2.27094 -0.34938,3.45344c0,1.1825 0.12094,2.33813 0.34938,3.45344c1.37062,6.71875 6.67844,12.02656 13.39719,13.39719c1.11531,0.22844 2.27094,0.34937 3.45344,0.34937h5.65719l-14.95594,14.74094l4.8375,4.91813l18.22125,-17.97938l18.22125,17.97938l4.8375,-4.91813l-14.95594,-14.74094h5.65719c1.1825,0 2.33813,-0.12094 3.45344,-0.34937c6.71875,-1.37063 12.02656,-6.69188 13.39719,-13.39719c0.22844,-1.11531 0.34937,-2.27094 0.34937,-3.45344c0,-1.1825 -0.12094,-2.33812 -0.34937,-3.45344c-1.37063,-6.71875 -6.69188,-12.02656 -13.39719,-13.39719c-1.11531,-0.22844 -2.27094,-0.34938 -3.45344,-0.34938c-0.67187,0 -1.31687,0.04031 -1.97531,0.12094c-0.14781,0.01344 -0.29562,0.05375 -0.45687,0.08063c-0.43,0.05375 -0.84656,0.13437 -1.26313,0.22844c-0.91375,0.20156 -1.78719,0.47031 -2.64719,0.81969c-0.26875,0.1075 -0.5375,0.24188 -0.80625,0.36281c-0.67187,0.3225 -1.33031,0.67188 -1.94844,1.075c-0.40313,0.24188 -0.77938,0.51063 -1.15563,0.79281c-0.41656,0.3225 -0.81969,0.65844 -1.20937,1.02125c-0.36281,0.30906 -0.71219,0.63156 -1.03469,0.98094c-0.44344,0.47031 -0.87344,0.98094 -1.26313,1.505c-0.38969,-0.52406 -0.81969,-1.03469 -1.26312,-1.505c-0.3225,-0.34937 -0.67188,-0.67187 -1.03469,-0.98094c-0.38969,-0.36281 -0.79281,-0.69875 -1.20937,-1.02125c-0.37625,-0.28219 -0.7525,-0.55094 -1.15563,-0.79281c-0.61812,-0.40312 -1.27656,-0.7525 -1.94844,-1.075c-0.26875,-0.12094 -0.5375,-0.25531 -0.80625,-0.36281c-0.86,-0.34937 -1.73344,-0.61812 -2.64719,-0.81969c-0.41656,-0.09406 -0.83313,-0.17469 -1.26313,-0.22844c-0.16125,-0.02688 -0.30906,-0.06719 -0.45687,-0.08063c-0.65844,-0.08062 -1.30344,-0.12094 -1.97531,-0.12094zM44.72,58.48c0.71219,0 1.41094,0.06719 2.08281,0.215c0,0 0,-0.01344 0.01344,0c4.68969,0.9675 8.22375,5.13313 8.22375,10.105v10.32h-10.32c-0.71219,0 -1.41094,-0.06719 -2.08281,-0.215c-4.01781,-0.81969 -7.2025,-3.99094 -8.02219,-8.00875c-0.01344,-0.01344 0,-0.01344 0,-0.01344c-0.14781,-0.67188 -0.215,-1.37063 -0.215,-2.08281c0,-0.71219 0.06719,-1.41094 0.215,-2.08281c0.81969,-4.01781 3.99094,-7.2025 8.00875,-8.02219c0.68531,-0.14781 1.38406,-0.215 2.09625,-0.215zM72.24,58.48c0.71219,0 1.41094,0.06719 2.08281,0.215c0,0 0,-0.01344 0.01344,0c4.00438,0.81969 7.18906,4.00438 8.00875,8.00875c0.01344,0.01344 0,0.01344 0,0.01344c0.14781,0.67188 0.215,1.37063 0.215,2.08281c0,0.71219 -0.06719,1.41094 -0.215,2.08281c0,0 0.01344,0 0,0.01344c-0.9675,4.68969 -5.13312,8.22375 -10.105,8.22375h-10.32v-10.32c0,-0.71219 0.06719,-1.41094 0.215,-2.09625c0.81969,-4.00437 4.00438,-7.18906 8.00875,-8.00875c0.68531,-0.14781 1.38406,-0.215 2.09625,-0.215zM110.08,113.52c-1.89469,0 -3.44,1.54531 -3.44,3.44c0,1.89469 1.54531,3.44 3.44,3.44c1.89469,0 3.44,-1.54531 3.44,-3.44c0,-1.89469 -1.54531,-3.44 -3.44,-3.44zM120.4,113.52c-1.89469,0 -3.44,1.54531 -3.44,3.44c0,1.89469 1.54531,3.44 3.44,3.44c1.89469,0 3.44,-1.54531 3.44,-3.44c0,-1.89469 -1.54531,-3.44 -3.44,-3.44zM130.72,113.52c-1.89469,0 -3.44,1.54531 -3.44,3.44c0,1.89469 1.54531,3.44 3.44,3.44c1.89469,0 3.44,-1.54531 3.44,-3.44c0,-1.89469 -1.54531,-3.44 -3.44,-3.44zM141.04,113.52c-1.89469,0 -3.44,1.54531 -3.44,3.44c0,1.89469 1.54531,3.44 3.44,3.44c1.89469,0 3.44,-1.54531 3.44,-3.44c0,-1.89469 -1.54531,-3.44 -3.44,-3.44z"></path></g></g></svg>
+        Gift Cards</span>
+      <span class="fw-bold">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 172 172"
+          class="footerIcon" style=" fill:#ffffff;">
+          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+            font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+            <path d="M0,172v-172h172v172z" fill="none"></path>
+            <g fill="#ffff00">
+              <path
+                d="M86,6.88c-43.65603,0 -79.12,35.46397 -79.12,79.12c0,43.65603 35.46397,79.12 79.12,79.12c43.65603,0 79.12,-35.46397 79.12,-79.12c0,-43.65603 -35.46397,-79.12 -79.12,-79.12zM86,13.76c39.93779,0 72.24,32.30221 72.24,72.24c0,39.93779 -32.30221,72.24 -72.24,72.24c-39.93779,0 -72.24,-32.30221 -72.24,-72.24c0,-39.93779 32.30221,-72.24 72.24,-72.24zM86.99437,43.02687c-12.8312,0 -21.33896,7.77483 -23.19312,19.61875c-0.1204,0.74304 0.24461,1.23335 0.98765,1.35719l7.7736,1.3639c0.74304,0.12384 1.23335,-0.24805 1.35719,-0.98765c1.4792,-7.52672 5.91858,-11.72422 12.8261,-11.72422c7.0348,0 11.96609,4.44426 11.96609,11.47562c0,4.1968 -1.4778,7.03351 -5.79156,12.95375l-8.27078,11.34797c-2.59032,3.58104 -3.69531,6.17297 -3.69531,11.11281v5.0525c0,0.7396 0.48993,1.23657 1.22953,1.22281h8.14312c0.7396,0 1.22953,-0.48993 1.22953,-1.22953v-3.94391c0,-4.19336 0.74508,-5.9218 3.21156,-9.25172l8.26406,-11.35469c4.1968,-5.79984 6.28875,-10.11397 6.28875,-16.03765c0,-12.21544 -9.00673,-20.97594 -22.32641,-20.97594zM81.57235,115.21313c-0.74304,0 -1.23625,0.49665 -1.23625,1.23625v10.60891c0,0.7396 0.48977,1.22953 1.23625,1.22953h9.37937c0.73616,0 1.22953,-0.48649 1.22953,-1.22953v-10.60891c0,-0.73616 -0.48993,-1.23625 -1.22953,-1.23625z">
+              </path>
+            </g>
+          </g>
+        </svg>
+        Help Center</span>
+      <span class="fw-bold">© 2007-2022 Flipkart.com</span>
+    </div>
+    <div class="col-xl-6 d-flex d-flex align-items-center justify-content-between my-1">
+      <img src="https://cdn-icons-png.flaticon.com/512/217/217425.png" alt="" class="footerTwoIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/217/217422.png" alt="" class="footerTwoIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/217/217445.png" alt="" class="footerTwoIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/217/217424.png" alt="" class="footerTwoIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/6124/6124998.png" alt="" class="footerTwoIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/825/825448.png" alt="" class="footerTwoIcon">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968601.png" alt="" class="footerTwoIcon">
+    </div>
+  </div>
+</div>
+<!-- Footer Section Two End -->
+
+<body>
+  <!-- JS Start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- JS End -->
+</body>
+
+</html>

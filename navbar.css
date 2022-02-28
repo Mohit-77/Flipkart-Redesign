@@ -1,0 +1,132 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.FlipkartLogo{
+    width: 80px;
+}
+
+.ExplorePlus{
+    text-decoration: none;
+}
+
+.EpIcon{
+    width: 18px;
+}
+
+.loginFlipkart{
+    background-color:skyblue;
+    border-radius: 4px;
+    border: none;
+    transition: 0.5s;
+}
+
+.loginFlipkart:hover{
+    background-color:rgb(0, 255, 179);
+    border-radius: 4px;
+    border: none;
+}
+
+.searchBox{
+    border: none;
+    width: 25rem;
+}
+
+.cart{
+    border: none;
+    background: none;
+    background-color: skyblue ;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.cart:hover{
+    border: none;
+    background: none;
+    background-color: rgb(0, 255, 179) ;
+    border-radius: 4px;
+}
+
+
+
+.iconMainBox{
+    /* border: 2px solid darkmagenta; */
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.iconBox{
+    border: 2px solid rgb(220 220 220);
+    background-color: rgb(220 220 220);
+    border-radius: 8px; 
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+
+.IconS{
+    height: 40px ;
+    width: 40px ;
+}
+
+.textO{
+    text-align: center;
+}
+
+.icontag{
+    width: 85px;
+}
+
+.iconBox:hover{
+    box-shadow: 0 30px 30px 0 #f3f3f3;
+    background-color: #ffffff;
+    border-radius: 8px; 
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:   30px ;
+}
+
+.buttonbox{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.explore{
+    padding: 6px 12px ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(220 220 220);
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.explore:hover{
+    padding: 6px 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: #383B7A ;
+   
+}
+
